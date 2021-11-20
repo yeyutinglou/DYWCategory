@@ -1,0 +1,6 @@
+framework module Pods_DYWCategory_Example {
+  umbrella header "Pods-DYWCategory_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
