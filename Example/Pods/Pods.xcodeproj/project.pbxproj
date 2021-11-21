@@ -7,29 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06E5695868AEC1D423A347019102B0D6 /* UIView+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 23AE02D5CA320E7DD65BC1DF7702A676 /* UIView+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07188608BAD7D85E1D7F9D5D3E01EF95 /* UISegmentedControl+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03FCF52F8D1FB97430CDAA07DEB86C /* UISegmentedControl+DYWExtension.m */; };
+		0FB6141BDC72025A3B5FA98FBE4C1938 /* UIViewController+DYWChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F98B61E0A1ADD065CD4D509AC265173 /* UIViewController+DYWChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		128A4FD71F98585BC04DE0DFC6AAC840 /* DYWCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 892CADA3DABF5E85BBFE3729058B4317 /* DYWCategory-dummy.m */; };
 		14939C680D9859333DD25B2B8C7D98FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		24C1FDE1497055C9E4F60DD894A25703 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		14A89665B2C9673F67BF60B48C961171 /* UIViewController+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FE753F2A2384AF4A3EDEEFA9730263 /* UIViewController+DYWExtension.m */; };
+		15F37AE32E34C99B1550D3CA4E6381A6 /* UIColor+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4BE7C7F3E9AFD38786CE11DD82E2B1 /* UIColor+DYWExtension.m */; };
+		1A2340E2A5808936E3D427C48F6733A5 /* UISegmentedControl+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5EF2B48383DB26BB179F49902DA804 /* UISegmentedControl+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AB3FC5CB327A744045132B6243DFCB8 /* UIButton+DYWSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CDE1860C21EF1599D3F831C6758C1B /* UIButton+DYWSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E180A1741BA2BFF2ECD654ED4195C76 /* NSObject+DYWIntrospection.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE449599D6A365785C0FD56E636A528 /* NSObject+DYWIntrospection.m */; };
+		3F1C9215C8CBD57ADF398547516562DF /* NSDictionary+DYWCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD79B7879D4166CD5C7DE3AC2E6795A /* NSDictionary+DYWCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411CDC93D98E7F5E79324D190FC26761 /* DYWCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91B05FE9F5CCFAC40779FD7D9B97BDEB /* DYWCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55ED3EE9AD0FAFD8A9E31E2C3CBB5F88 /* Pods-DYWCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB6C779C9052F273F7F7A33E6422DE5 /* Pods-DYWCategory_Example-dummy.m */; };
+		5735A0CC178DA977826BF9FAE0E99DA9 /* NSObject+DYWPropertyLog.h in Headers */ = {isa = PBXBuildFile; fileRef = ED35E5EF46EA70AB06B00A06932BBCA4 /* NSObject+DYWPropertyLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		670B0476B9B4BC02FF53D45523A94B9A /* NSObject+DYWPropertyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DEE2F29A8F1373F132463FC6EEE590 /* NSObject+DYWPropertyLog.m */; };
+		6AC704E797FA5A8BDEE768F0B7E851E1 /* UIView+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A1D7B82B74A811A77E61A338723B86 /* UIView+DYWExtension.m */; };
+		708A0575056F792CCD6A7CEE34A25B72 /* NSString+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6615651E71C6F8FA6EB44CB91093640A /* NSString+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75A7E61C75A627F9C20D07D878BF4C3E /* NSDictionary+DYWCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 496DC93565494463CBE267224D57214D /* NSDictionary+DYWCategory.m */; };
+		76ED0F2AAD6AFF91729B009D096EE994 /* UINavigationController+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = CE62AD55E5D194DD22F17797671C15EB /* UINavigationController+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E33FBA9612AE23EEAA98C8259D9CD0 /* NSDate+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48502E9A21B7BACED8A9BAD33C3402EF /* NSDate+DYWExtension.m */; };
+		7A7F79034FF2FC1C8E6FDFE69BBD5322 /* UILabel+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74D516DF1FED18A1676B340CD3D1F1DF /* UILabel+DYWExtension.m */; };
+		7B6EAF68C082452CCF6219ED269399AC /* NSObject+DYWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA3598FC6B0015A3ED8B83D62088A2C /* NSObject+DYWModel.m */; };
+		7C7BE35F4B940A80A167351258C6C8C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		815BCD3C73E58F05E3D8939184ABF884 /* Pods-DYWCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E81B253ABE11F72A08F790A14656315 /* Pods-DYWCategory_Tests-dummy.m */; };
-		8CD0B25D728523A2FA45C3FD45DAC70F /* DYWCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 973ADE1F221A77AAA3B5D48CE99A1A95 /* DYWCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		835B8782F18818D85ECE8AD37860B4DF /* DYWCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = B78E1F880823462D0646BB3A3EE1409C /* DYWCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85F4AD1EC5579A4277D6D7CC37223B41 /* UIButton+DYWSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 487DC773F9A37A7EA37C9619D8930930 /* UIButton+DYWSwizzling.m */; };
+		8ABD252428B7DA8677D732C5881E40A1 /* NSString+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C71E13D337E5DC852621DE8B31D1303 /* NSString+DYWExtension.m */; };
 		903456488D48F4D752A95EF746E8D071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C51DC560F707705B41520DCCD6D225D7 /* DYWCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A1926566AAC00FB5272E8C6A516DEC /* DYWCategory-dummy.m */; };
+		93F0BD2B6FB7997639C0D15AD535F278 /* NSObject+DYWModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C23D1E8BF62E35E381895B8464E04004 /* NSObject+DYWModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B36CA4474A0D9E372EA7BE02414EFEF /* UIViewController+DYWChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D701F53C47ABD4CEB7508922EA9AD49 /* UIViewController+DYWChild.m */; };
+		9B7A980A41C88796CFDA8BBA175DEB3D /* NSObject+DYWSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CD2F2C3C000CEB7A97F154DDE2E78C /* NSObject+DYWSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5744729A42C6F862B75464C1D67AAF3 /* UINavigationController+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C64C6A075DC1BEC7290638D6BF04E3D5 /* UINavigationController+DYWExtension.m */; };
+		A7C36B368F0719878DFAE731609D2607 /* NSObject+DYWSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 80237469FB97432F73F5A21BBAB74702 /* NSObject+DYWSwizzling.m */; };
+		A8FA39056A4107A169A89E8472A5CDCD /* UILabel+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BB9E59E0876D8F575A0FFF8F8CC12FD /* UILabel+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B29D87C7B510A76C30FB68841CC7CDDE /* NSObject+DYWIntrospection.h in Headers */ = {isa = PBXBuildFile; fileRef = FE89CEE24A89F003475DF8D323E7CA3A /* NSObject+DYWIntrospection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54CD33F8E3905DD77BA895198EFB11D /* UIImage+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 54481B11C18DBEB785CF867A7A166E2A /* UIImage+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B80139B993B75E5F81B473FFCC1B79E5 /* NSDate+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C56FA46001D1FBCF39BFF9EC58462D18 /* NSDate+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD77855148DBB14B73E38DF8FA6C3B0F /* UIColor+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B7AB71732732375BB48A0143600716FF /* UIColor+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C09F7EF1C56CE2B858848FCF46C12A68 /* UIViewController+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A51FE80F7B993C10A152F16ADFBF2D73 /* UIViewController+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB3340D7D6A38D2AA4B0E1B727459876 /* Pods-DYWCategory_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4E5869249082B29277571B3BE7A14C7 /* Pods-DYWCategory_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE25462A33A539941F0594A47FC1EC2F /* UIColor+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC5DE73B40A912B72E69C1CF527B2F4 /* UIColor+DYWExtension.m */; };
+		E23C5DA42EF5A7636327D02033C3F580 /* UIView+DYWBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA9C308C511F57C461F6C2033DDE4A2 /* UIView+DYWBorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5318136F67F755AD5CDA9C887CC0AA5 /* UIView+DYWBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 991E900AA7C6701E04B9D3A10C88A795 /* UIView+DYWBorder.m */; };
 		E68DB46ACF7C212F754D96F2AF8A0BC7 /* Pods-DYWCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A89E8D333AB70783CC5EEC3BA8C5DB59 /* Pods-DYWCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EFC875CA8245320FAED9D71C67979D22 /* UIColor+DYWExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA660C9EF4CA22D6486F99380710276 /* UIColor+DYWExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFFC4BFDB9D0E3817B034EFB1C2D36AB /* DYWCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F3A6EA828D581CE607AA309D89EE06 /* DYWCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA8410669DCED542BBAF923D71A6285E /* UIImage+DYWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C70C136A00195A47242448E78F80829 /* UIImage+DYWExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AE6FEE1260673EA9277BAC03CE6B3857 /* PBXContainerItemProxy */ = {
+		367FF0F7F404360B2CC2E2C6B69CA021 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 444CF673B60354E9828545EBEF556A47;
 			remoteInfo = "Pods-DYWCategory_Example";
 		};
-		D509F849BDF9D3E73AC0633F16DFBA71 /* PBXContainerItemProxy */ = {
+		4CFB9DF728B34B729AA33467F2821BE3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -39,41 +71,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002041DB36853417830AEA7AC892AAD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		11CB5E83EA0EF297134550EA23D99335 /* DYWCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DYWCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		00A1D7B82B74A811A77E61A338723B86 /* UIView+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DYWExtension.m"; path = "DYWCategory/Classes/UIView+DYWExtension.m"; sourceTree = "<group>"; };
+		040998B400844D510D4A65A7F51A339A /* DYWCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DYWCategory-Info.plist"; sourceTree = "<group>"; };
+		0BB9E59E0876D8F575A0FFF8F8CC12FD /* UILabel+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+DYWExtension.h"; path = "DYWCategory/Classes/UILabel+DYWExtension.h"; sourceTree = "<group>"; };
 		18F72D279E2DAA10E85BC5F967515076 /* Pods-DYWCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYWCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1AD79B7879D4166CD5C7DE3AC2E6795A /* NSDictionary+DYWCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+DYWCategory.h"; path = "DYWCategory/Classes/NSDictionary+DYWCategory.h"; sourceTree = "<group>"; };
+		1E56339D1D1C25AB71B9B87079DFCF58 /* DYWCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYWCategory.release.xcconfig; sourceTree = "<group>"; };
+		23AE02D5CA320E7DD65BC1DF7702A676 /* UIView+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DYWExtension.h"; path = "DYWCategory/Classes/UIView+DYWExtension.h"; sourceTree = "<group>"; };
 		24AF4DAE94839A6801CB57DE83CA3152 /* Pods-DYWCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYWCategory_Tests.modulemap"; sourceTree = "<group>"; };
-		27E795D725256D6C8387F06102B366EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2B8DBD8D3EB761FF0B35C3ECD1353D09 /* DYWCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DYWCategory-Info.plist"; sourceTree = "<group>"; };
+		26FE753F2A2384AF4A3EDEEFA9730263 /* UIViewController+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DYWExtension.m"; path = "DYWCategory/Classes/UIViewController+DYWExtension.m"; sourceTree = "<group>"; };
+		32B6072B3EF911380E2F4BB83E6206F0 /* DYWCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DYWCategory.modulemap; sourceTree = "<group>"; };
 		3CB6C779C9052F273F7F7A33E6422DE5 /* Pods-DYWCategory_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYWCategory_Example-dummy.m"; sourceTree = "<group>"; };
-		4741611C961333BE8B9E58AB1357E0D5 /* DYWCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DYWCategory.modulemap; sourceTree = "<group>"; };
+		48502E9A21B7BACED8A9BAD33C3402EF /* NSDate+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+DYWExtension.m"; path = "DYWCategory/Classes/NSDate+DYWExtension.m"; sourceTree = "<group>"; };
+		487DC773F9A37A7EA37C9619D8930930 /* UIButton+DYWSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+DYWSwizzling.m"; path = "DYWCategory/Classes/UIButton+DYWSwizzling.m"; sourceTree = "<group>"; };
+		496DC93565494463CBE267224D57214D /* NSDictionary+DYWCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+DYWCategory.m"; path = "DYWCategory/Classes/NSDictionary+DYWCategory.m"; sourceTree = "<group>"; };
+		4C70C136A00195A47242448E78F80829 /* UIImage+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+DYWExtension.m"; path = "DYWCategory/Classes/UIImage+DYWExtension.m"; sourceTree = "<group>"; };
+		4D701F53C47ABD4CEB7508922EA9AD49 /* UIViewController+DYWChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+DYWChild.m"; path = "DYWCategory/Classes/UIViewController+DYWChild.m"; sourceTree = "<group>"; };
 		4E81B253ABE11F72A08F790A14656315 /* Pods-DYWCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DYWCategory_Tests-dummy.m"; sourceTree = "<group>"; };
-		528EB7A15B97AC12B3AE2D265F431103 /* Pods_DYWCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYWCategory_Tests.framework; path = "Pods-DYWCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F98B61E0A1ADD065CD4D509AC265173 /* UIViewController+DYWChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DYWChild.h"; path = "DYWCategory/Classes/UIViewController+DYWChild.h"; sourceTree = "<group>"; };
+		528EB7A15B97AC12B3AE2D265F431103 /* Pods_DYWCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		543195446864EC4103DF6896ABEEDD39 /* Pods-DYWCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYWCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		59F3A6EA828D581CE607AA309D89EE06 /* DYWCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYWCategory.h; path = DYWCategory/Classes/DYWCategory.h; sourceTree = "<group>"; };
+		54481B11C18DBEB785CF867A7A166E2A /* UIImage+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+DYWExtension.h"; path = "DYWCategory/Classes/UIImage+DYWExtension.h"; sourceTree = "<group>"; };
 		5CCA0FBE4E778536A414FB7D3B7FCA4C /* Pods-DYWCategory_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DYWCategory_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6615651E71C6F8FA6EB44CB91093640A /* NSString+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DYWExtension.h"; path = "DYWCategory/Classes/NSString+DYWExtension.h"; sourceTree = "<group>"; };
+		669A15FC61E8FC54B349F59CCF5061FE /* DYWCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DYWCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6A4BE7C7F3E9AFD38786CE11DD82E2B1 /* UIColor+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DYWExtension.m"; path = "DYWCategory/Classes/UIColor+DYWExtension.m"; sourceTree = "<group>"; };
 		6AE37A48AD0F033670558FC90833DAFA /* Pods-DYWCategory_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYWCategory_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F9D7AD0C056B2BDB0338B1E7A58DB9A /* Pods-DYWCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYWCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7B83BFF84C33B8299505D1FB9DEF0D45 /* DYWCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DYWCategory.framework; path = DYWCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D516DF1FED18A1676B340CD3D1F1DF /* UILabel+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+DYWExtension.m"; path = "DYWCategory/Classes/UILabel+DYWExtension.m"; sourceTree = "<group>"; };
+		7B83BFF84C33B8299505D1FB9DEF0D45 /* DYWCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DYWCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C5EF2B48383DB26BB179F49902DA804 /* UISegmentedControl+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISegmentedControl+DYWExtension.h"; path = "DYWCategory/Classes/UISegmentedControl+DYWExtension.h"; sourceTree = "<group>"; };
+		80237469FB97432F73F5A21BBAB74702 /* NSObject+DYWSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DYWSwizzling.m"; path = "DYWCategory/Classes/NSObject+DYWSwizzling.m"; sourceTree = "<group>"; };
 		877F83FFCB64D943F8097D84CC37B407 /* Pods-DYWCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYWCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		892CADA3DABF5E85BBFE3729058B4317 /* DYWCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYWCategory-dummy.m"; sourceTree = "<group>"; };
+		91B05FE9F5CCFAC40779FD7D9B97BDEB /* DYWCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYWCategory-umbrella.h"; sourceTree = "<group>"; };
 		96636FB7890A9D4CE1CAC4916E9ADEC0 /* Pods-DYWCategory_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DYWCategory_Example.modulemap"; sourceTree = "<group>"; };
-		973ADE1F221A77AAA3B5D48CE99A1A95 /* DYWCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYWCategory-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		991E900AA7C6701E04B9D3A10C88A795 /* UIView+DYWBorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DYWBorder.m"; path = "DYWCategory/Classes/UIView+DYWBorder.m"; sourceTree = "<group>"; };
+		9C71E13D337E5DC852621DE8B31D1303 /* NSString+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DYWExtension.m"; path = "DYWCategory/Classes/NSString+DYWExtension.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FF6CF77B95569E3DC9A6CABDF179211 /* Pods-DYWCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYWCategory_Tests-Info.plist"; sourceTree = "<group>"; };
-		A788D304EDCFB91017C50935E6754A20 /* Pods_DYWCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DYWCategory_Example.framework; path = "Pods-DYWCategory_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51FE80F7B993C10A152F16ADFBF2D73 /* UIViewController+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+DYWExtension.h"; path = "DYWCategory/Classes/UIViewController+DYWExtension.h"; sourceTree = "<group>"; };
+		A788D304EDCFB91017C50935E6754A20 /* Pods_DYWCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYWCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89E8D333AB70783CC5EEC3BA8C5DB59 /* Pods-DYWCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYWCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AB56CF9BBF89BB9FF00EB7B5C551F61D /* DYWCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYWCategory.debug.xcconfig; sourceTree = "<group>"; };
-		ABC5DE73B40A912B72E69C1CF527B2F4 /* UIColor+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DYWExtension.m"; path = "DYWCategory/Classes/UIColor+DYWExtension.m"; sourceTree = "<group>"; };
+		AC03FCF52F8D1FB97430CDAA07DEB86C /* UISegmentedControl+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISegmentedControl+DYWExtension.m"; path = "DYWCategory/Classes/UISegmentedControl+DYWExtension.m"; sourceTree = "<group>"; };
 		AC9B9281F6E9B86B1D16C062D37C6729 /* Pods-DYWCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYWCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AEAF627B43B5D93A76AC726F4247EEEA /* Pods-DYWCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DYWCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF9755CFA6A435ECF681C2F97673FDD5 /* Pods-DYWCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DYWCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C6A1926566AAC00FB5272E8C6A516DEC /* DYWCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYWCategory-dummy.m"; sourceTree = "<group>"; };
+		B4CD2F2C3C000CEB7A97F154DDE2E78C /* NSObject+DYWSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DYWSwizzling.h"; path = "DYWCategory/Classes/NSObject+DYWSwizzling.h"; sourceTree = "<group>"; };
+		B4E78AE0828497F689E10C2E6CF3738F /* DYWCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYWCategory.debug.xcconfig; sourceTree = "<group>"; };
+		B78E1F880823462D0646BB3A3EE1409C /* DYWCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYWCategory.h; path = DYWCategory/Classes/DYWCategory.h; sourceTree = "<group>"; };
+		B7AB71732732375BB48A0143600716FF /* UIColor+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DYWExtension.h"; path = "DYWCategory/Classes/UIColor+DYWExtension.h"; sourceTree = "<group>"; };
+		C23D1E8BF62E35E381895B8464E04004 /* NSObject+DYWModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DYWModel.h"; path = "DYWCategory/Classes/NSObject+DYWModel.h"; sourceTree = "<group>"; };
+		C56FA46001D1FBCF39BFF9EC58462D18 /* NSDate+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DYWExtension.h"; path = "DYWCategory/Classes/NSDate+DYWExtension.h"; sourceTree = "<group>"; };
+		C5CDE1860C21EF1599D3F831C6758C1B /* UIButton+DYWSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+DYWSwizzling.h"; path = "DYWCategory/Classes/UIButton+DYWSwizzling.h"; sourceTree = "<group>"; };
+		C64C6A075DC1BEC7290638D6BF04E3D5 /* UINavigationController+DYWExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+DYWExtension.m"; path = "DYWCategory/Classes/UINavigationController+DYWExtension.m"; sourceTree = "<group>"; };
+		CE62AD55E5D194DD22F17797671C15EB /* UINavigationController+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+DYWExtension.h"; path = "DYWCategory/Classes/UINavigationController+DYWExtension.h"; sourceTree = "<group>"; };
+		D07C1DC339D79ABCA0F940810C8AA5EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D215069A82DA60ABAFCBFE46A6BA5348 /* DYWCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYWCategory-prefix.pch"; sourceTree = "<group>"; };
 		DC6DB7B37747E3EFD71408EC1EF16EF3 /* Pods-DYWCategory_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DYWCategory_Example-Info.plist"; sourceTree = "<group>"; };
-		E1857261E83FC80A05BB7FD37406C890 /* DYWCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYWCategory.release.xcconfig; sourceTree = "<group>"; };
 		E4E5869249082B29277571B3BE7A14C7 /* Pods-DYWCategory_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DYWCategory_Example-umbrella.h"; sourceTree = "<group>"; };
-		F5CBD1170BAD3E8CCB02FBD889D42664 /* DYWCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYWCategory-prefix.pch"; sourceTree = "<group>"; };
-		FFA660C9EF4CA22D6486F99380710276 /* UIColor+DYWExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DYWExtension.h"; path = "DYWCategory/Classes/UIColor+DYWExtension.h"; sourceTree = "<group>"; };
+		ED35E5EF46EA70AB06B00A06932BBCA4 /* NSObject+DYWPropertyLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DYWPropertyLog.h"; path = "DYWCategory/Classes/NSObject+DYWPropertyLog.h"; sourceTree = "<group>"; };
+		EDE449599D6A365785C0FD56E636A528 /* NSObject+DYWIntrospection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DYWIntrospection.m"; path = "DYWCategory/Classes/NSObject+DYWIntrospection.m"; sourceTree = "<group>"; };
+		EFA9C308C511F57C461F6C2033DDE4A2 /* UIView+DYWBorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DYWBorder.h"; path = "DYWCategory/Classes/UIView+DYWBorder.h"; sourceTree = "<group>"; };
+		F6DEE2F29A8F1373F132463FC6EEE590 /* NSObject+DYWPropertyLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DYWPropertyLog.m"; path = "DYWCategory/Classes/NSObject+DYWPropertyLog.m"; sourceTree = "<group>"; };
+		FBA3598FC6B0015A3ED8B83D62088A2C /* NSObject+DYWModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+DYWModel.m"; path = "DYWCategory/Classes/NSObject+DYWModel.m"; sourceTree = "<group>"; };
+		FE89CEE24A89F003475DF8D323E7CA3A /* NSObject+DYWIntrospection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+DYWIntrospection.h"; path = "DYWCategory/Classes/NSObject+DYWIntrospection.h"; sourceTree = "<group>"; };
+		FF40E780668E1CADFF2616BDC3AEE387 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +149,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		738C66ED512F570B6BD2CE382E0BB08B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				24C1FDE1497055C9E4F60DD894A25703 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B29DC1255720119F42FA32D4A00ED853 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,19 +157,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB1385B249F4CC73EA10D78825E45020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C7BE35F4B940A80A167351258C6C8C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1AC085886B4267B4090A027EB022450F /* Support Files */ = {
+		20BE8F6FF0144DD701DE1AAE00AC41B1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4741611C961333BE8B9E58AB1357E0D5 /* DYWCategory.modulemap */,
-				C6A1926566AAC00FB5272E8C6A516DEC /* DYWCategory-dummy.m */,
-				2B8DBD8D3EB761FF0B35C3ECD1353D09 /* DYWCategory-Info.plist */,
-				F5CBD1170BAD3E8CCB02FBD889D42664 /* DYWCategory-prefix.pch */,
-				973ADE1F221A77AAA3B5D48CE99A1A95 /* DYWCategory-umbrella.h */,
-				AB56CF9BBF89BB9FF00EB7B5C551F61D /* DYWCategory.debug.xcconfig */,
-				E1857261E83FC80A05BB7FD37406C890 /* DYWCategory.release.xcconfig */,
+				32B6072B3EF911380E2F4BB83E6206F0 /* DYWCategory.modulemap */,
+				892CADA3DABF5E85BBFE3729058B4317 /* DYWCategory-dummy.m */,
+				040998B400844D510D4A65A7F51A339A /* DYWCategory-Info.plist */,
+				D215069A82DA60ABAFCBFE46A6BA5348 /* DYWCategory-prefix.pch */,
+				91B05FE9F5CCFAC40779FD7D9B97BDEB /* DYWCategory-umbrella.h */,
+				B4E78AE0828497F689E10C2E6CF3738F /* DYWCategory.debug.xcconfig */,
+				1E56339D1D1C25AB71B9B87079DFCF58 /* DYWCategory.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DYWCategory";
@@ -135,35 +199,12 @@
 			path = "Target Support Files/Pods-DYWCategory_Tests";
 			sourceTree = "<group>";
 		};
-		2B05D2A08738B2E34A9E81EFB5DC1B95 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				11CB5E83EA0EF297134550EA23D99335 /* DYWCategory.podspec */,
-				002041DB36853417830AEA7AC892AAD2 /* LICENSE */,
-				27E795D725256D6C8387F06102B366EB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		72A3EAF111E60C23C1B52E90DB16FEBD /* DYWCategory */ = {
-			isa = PBXGroup;
-			children = (
-				59F3A6EA828D581CE607AA309D89EE06 /* DYWCategory.h */,
-				FFA660C9EF4CA22D6486F99380710276 /* UIColor+DYWExtension.h */,
-				ABC5DE73B40A912B72E69C1CF527B2F4 /* UIColor+DYWExtension.m */,
-				2B05D2A08738B2E34A9E81EFB5DC1B95 /* Pod */,
-				1AC085886B4267B4090A027EB022450F /* Support Files */,
-			);
-			name = DYWCategory;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7D102CD3CCD42DC013AC7E5BB3DAB0C6 /* Pods-DYWCategory_Example */ = {
@@ -193,19 +234,66 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A534CCA6135FE7C13E662E31A7020C3D /* Development Pods */ = {
+		8B7F44732E056FAEB8DC2E1FCDFA2EF4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				72A3EAF111E60C23C1B52E90DB16FEBD /* DYWCategory */,
+				669A15FC61E8FC54B349F59CCF5061FE /* DYWCategory.podspec */,
+				D07C1DC339D79ABCA0F940810C8AA5EA /* LICENSE */,
+				FF40E780668E1CADFF2616BDC3AEE387 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9046F67203B3771B1A5D376314B86534 /* DYWCategory */ = {
+			isa = PBXGroup;
+			children = (
+				B78E1F880823462D0646BB3A3EE1409C /* DYWCategory.h */,
+				C56FA46001D1FBCF39BFF9EC58462D18 /* NSDate+DYWExtension.h */,
+				48502E9A21B7BACED8A9BAD33C3402EF /* NSDate+DYWExtension.m */,
+				1AD79B7879D4166CD5C7DE3AC2E6795A /* NSDictionary+DYWCategory.h */,
+				496DC93565494463CBE267224D57214D /* NSDictionary+DYWCategory.m */,
+				FE89CEE24A89F003475DF8D323E7CA3A /* NSObject+DYWIntrospection.h */,
+				EDE449599D6A365785C0FD56E636A528 /* NSObject+DYWIntrospection.m */,
+				ED35E5EF46EA70AB06B00A06932BBCA4 /* NSObject+DYWPropertyLog.h */,
+				F6DEE2F29A8F1373F132463FC6EEE590 /* NSObject+DYWPropertyLog.m */,
+				C23D1E8BF62E35E381895B8464E04004 /* NSObject+DYWModel.h */,
+				FBA3598FC6B0015A3ED8B83D62088A2C /* NSObject+DYWModel.m */,
+				B4CD2F2C3C000CEB7A97F154DDE2E78C /* NSObject+DYWSwizzling.h */,
+				80237469FB97432F73F5A21BBAB74702 /* NSObject+DYWSwizzling.m */,
+				6615651E71C6F8FA6EB44CB91093640A /* NSString+DYWExtension.h */,
+				9C71E13D337E5DC852621DE8B31D1303 /* NSString+DYWExtension.m */,
+				C5CDE1860C21EF1599D3F831C6758C1B /* UIButton+DYWSwizzling.h */,
+				487DC773F9A37A7EA37C9619D8930930 /* UIButton+DYWSwizzling.m */,
+				B7AB71732732375BB48A0143600716FF /* UIColor+DYWExtension.h */,
+				6A4BE7C7F3E9AFD38786CE11DD82E2B1 /* UIColor+DYWExtension.m */,
+				54481B11C18DBEB785CF867A7A166E2A /* UIImage+DYWExtension.h */,
+				4C70C136A00195A47242448E78F80829 /* UIImage+DYWExtension.m */,
+				0BB9E59E0876D8F575A0FFF8F8CC12FD /* UILabel+DYWExtension.h */,
+				74D516DF1FED18A1676B340CD3D1F1DF /* UILabel+DYWExtension.m */,
+				CE62AD55E5D194DD22F17797671C15EB /* UINavigationController+DYWExtension.h */,
+				C64C6A075DC1BEC7290638D6BF04E3D5 /* UINavigationController+DYWExtension.m */,
+				7C5EF2B48383DB26BB179F49902DA804 /* UISegmentedControl+DYWExtension.h */,
+				AC03FCF52F8D1FB97430CDAA07DEB86C /* UISegmentedControl+DYWExtension.m */,
+				EFA9C308C511F57C461F6C2033DDE4A2 /* UIView+DYWBorder.h */,
+				991E900AA7C6701E04B9D3A10C88A795 /* UIView+DYWBorder.m */,
+				23AE02D5CA320E7DD65BC1DF7702A676 /* UIView+DYWExtension.h */,
+				00A1D7B82B74A811A77E61A338723B86 /* UIView+DYWExtension.m */,
+				4F98B61E0A1ADD065CD4D509AC265173 /* UIViewController+DYWChild.h */,
+				4D701F53C47ABD4CEB7508922EA9AD49 /* UIViewController+DYWChild.m */,
+				A51FE80F7B993C10A152F16ADFBF2D73 /* UIViewController+DYWExtension.h */,
+				26FE753F2A2384AF4A3EDEEFA9730263 /* UIViewController+DYWExtension.m */,
+				8B7F44732E056FAEB8DC2E1FCDFA2EF4 /* Pod */,
+				20BE8F6FF0144DD701DE1AAE00AC41B1 /* Support Files */,
+			);
+			name = DYWCategory;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A534CCA6135FE7C13E662E31A7020C3D /* Development Pods */,
+				DD023579EAEA2918E860A2ACAF91F3A4 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				84947231E97108880ABF2A4712F7C815 /* Products */,
 				DA27BD6F06FB4E5C007E8DBDE363753D /* Targets Support Files */,
@@ -229,16 +317,40 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		DD023579EAEA2918E860A2ACAF91F3A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9046F67203B3771B1A5D376314B86534 /* DYWCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0858320AAE065D06286BDF037E1959A8 /* Headers */ = {
+		0D2399FEBCB64B81C95E6A0E3E48C225 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CD0B25D728523A2FA45C3FD45DAC70F /* DYWCategory-umbrella.h in Headers */,
-				FFFC4BFDB9D0E3817B034EFB1C2D36AB /* DYWCategory.h in Headers */,
-				EFC875CA8245320FAED9D71C67979D22 /* UIColor+DYWExtension.h in Headers */,
+				411CDC93D98E7F5E79324D190FC26761 /* DYWCategory-umbrella.h in Headers */,
+				835B8782F18818D85ECE8AD37860B4DF /* DYWCategory.h in Headers */,
+				B80139B993B75E5F81B473FFCC1B79E5 /* NSDate+DYWExtension.h in Headers */,
+				3F1C9215C8CBD57ADF398547516562DF /* NSDictionary+DYWCategory.h in Headers */,
+				B29D87C7B510A76C30FB68841CC7CDDE /* NSObject+DYWIntrospection.h in Headers */,
+				5735A0CC178DA977826BF9FAE0E99DA9 /* NSObject+DYWPropertyLog.h in Headers */,
+				93F0BD2B6FB7997639C0D15AD535F278 /* NSObject+DYWModel.h in Headers */,
+				9B7A980A41C88796CFDA8BBA175DEB3D /* NSObject+DYWSwizzling.h in Headers */,
+				708A0575056F792CCD6A7CEE34A25B72 /* NSString+DYWExtension.h in Headers */,
+				1AB3FC5CB327A744045132B6243DFCB8 /* UIButton+DYWSwizzling.h in Headers */,
+				BD77855148DBB14B73E38DF8FA6C3B0F /* UIColor+DYWExtension.h in Headers */,
+				B54CD33F8E3905DD77BA895198EFB11D /* UIImage+DYWExtension.h in Headers */,
+				A8FA39056A4107A169A89E8472A5CDCD /* UILabel+DYWExtension.h in Headers */,
+				76ED0F2AAD6AFF91729B009D096EE994 /* UINavigationController+DYWExtension.h in Headers */,
+				1A2340E2A5808936E3D427C48F6733A5 /* UISegmentedControl+DYWExtension.h in Headers */,
+				E23C5DA42EF5A7636327D02033C3F580 /* UIView+DYWBorder.h in Headers */,
+				06E5695868AEC1D423A347019102B0D6 /* UIView+DYWExtension.h in Headers */,
+				0FB6141BDC72025A3B5FA98FBE4C1938 /* UIViewController+DYWChild.h in Headers */,
+				C09F7EF1C56CE2B858848FCF46C12A68 /* UIViewController+DYWExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +385,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				93597BF4F42BEE2E876D82FE4A9EE2D7 /* PBXTargetDependency */,
+				C792054FF5C12ABFD238A15B165778EF /* PBXTargetDependency */,
 			);
 			name = "Pods-DYWCategory_Example";
 			productName = "Pods-DYWCategory_Example";
@@ -282,12 +394,12 @@
 		};
 		959D2A9AE8FD58F2FFA4CBB72607994A /* DYWCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F57EC0A86E982671C00167FE12182190 /* Build configuration list for PBXNativeTarget "DYWCategory" */;
+			buildConfigurationList = BCE1ED8D563EB8676020CB12B3498933 /* Build configuration list for PBXNativeTarget "DYWCategory" */;
 			buildPhases = (
-				0858320AAE065D06286BDF037E1959A8 /* Headers */,
-				F8B3F3F4DCC5613D9EDBD8F30DC57154 /* Sources */,
-				738C66ED512F570B6BD2CE382E0BB08B /* Frameworks */,
-				3A0C5E66530E9982BA55D0C2D18DD823 /* Resources */,
+				0D2399FEBCB64B81C95E6A0E3E48C225 /* Headers */,
+				76121856855B59626738ED34F70C5B47 /* Sources */,
+				BB1385B249F4CC73EA10D78825E45020 /* Frameworks */,
+				2C08AD4D8E2807638A21364D6FCFEBD4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -310,7 +422,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9A5AEABEEAB8B93DB612DB3C91AC40D7 /* PBXTargetDependency */,
+				F098D2E7830167A9B7D765010916958E /* PBXTargetDependency */,
 			);
 			name = "Pods-DYWCategory_Tests";
 			productName = "Pods-DYWCategory_Tests";
@@ -347,7 +459,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3A0C5E66530E9982BA55D0C2D18DD823 /* Resources */ = {
+		2C08AD4D8E2807638A21364D6FCFEBD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,6 +491,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		76121856855B59626738ED34F70C5B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128A4FD71F98585BC04DE0DFC6AAC840 /* DYWCategory-dummy.m in Sources */,
+				77E33FBA9612AE23EEAA98C8259D9CD0 /* NSDate+DYWExtension.m in Sources */,
+				75A7E61C75A627F9C20D07D878BF4C3E /* NSDictionary+DYWCategory.m in Sources */,
+				2E180A1741BA2BFF2ECD654ED4195C76 /* NSObject+DYWIntrospection.m in Sources */,
+				670B0476B9B4BC02FF53D45523A94B9A /* NSObject+DYWPropertyLog.m in Sources */,
+				7B6EAF68C082452CCF6219ED269399AC /* NSObject+DYWModel.m in Sources */,
+				A7C36B368F0719878DFAE731609D2607 /* NSObject+DYWSwizzling.m in Sources */,
+				8ABD252428B7DA8677D732C5881E40A1 /* NSString+DYWExtension.m in Sources */,
+				85F4AD1EC5579A4277D6D7CC37223B41 /* UIButton+DYWSwizzling.m in Sources */,
+				15F37AE32E34C99B1550D3CA4E6381A6 /* UIColor+DYWExtension.m in Sources */,
+				FA8410669DCED542BBAF923D71A6285E /* UIImage+DYWExtension.m in Sources */,
+				7A7F79034FF2FC1C8E6FDFE69BBD5322 /* UILabel+DYWExtension.m in Sources */,
+				A5744729A42C6F862B75464C1D67AAF3 /* UINavigationController+DYWExtension.m in Sources */,
+				07188608BAD7D85E1D7F9D5D3E01EF95 /* UISegmentedControl+DYWExtension.m in Sources */,
+				E5318136F67F755AD5CDA9C887CC0AA5 /* UIView+DYWBorder.m in Sources */,
+				6AC704E797FA5A8BDEE768F0B7E851E1 /* UIView+DYWExtension.m in Sources */,
+				9B36CA4474A0D9E372EA7BE02414EFEF /* UIViewController+DYWChild.m in Sources */,
+				14A89665B2C9673F67BF60B48C961171 /* UIViewController+DYWExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8DB0A9A444CD9F38150BC51E8B02583 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,63 +524,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8B3F3F4DCC5613D9EDBD8F30DC57154 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C51DC560F707705B41520DCCD6D225D7 /* DYWCategory-dummy.m in Sources */,
-				DE25462A33A539941F0594A47FC1EC2F /* UIColor+DYWExtension.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		93597BF4F42BEE2E876D82FE4A9EE2D7 /* PBXTargetDependency */ = {
+		C792054FF5C12ABFD238A15B165778EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DYWCategory;
 			target = 959D2A9AE8FD58F2FFA4CBB72607994A /* DYWCategory */;
-			targetProxy = D509F849BDF9D3E73AC0633F16DFBA71 /* PBXContainerItemProxy */;
+			targetProxy = 4CFB9DF728B34B729AA33467F2821BE3 /* PBXContainerItemProxy */;
 		};
-		9A5AEABEEAB8B93DB612DB3C91AC40D7 /* PBXTargetDependency */ = {
+		F098D2E7830167A9B7D765010916958E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DYWCategory_Example";
 			target = 444CF673B60354E9828545EBEF556A47 /* Pods-DYWCategory_Example */;
-			targetProxy = AE6FEE1260673EA9277BAC03CE6B3857 /* PBXContainerItemProxy */;
+			targetProxy = 367FF0F7F404360B2CC2E2C6B69CA021 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0E927439119272829DC0008C53EBDC94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB56CF9BBF89BB9FF00EB7B5C551F61D /* DYWCategory.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DYWCategory/DYWCategory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DYWCategory/DYWCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DYWCategory/DYWCategory.modulemap";
-				PRODUCT_MODULE_NAME = DYWCategory;
-				PRODUCT_NAME = DYWCategory;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -608,9 +706,39 @@
 			};
 			name = Release;
 		};
-		67537835E6CDCE5BF9266558C9EE0912 /* Release */ = {
+		5770DF88A3ADDE182AA86414F78BB8CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1857261E83FC80A05BB7FD37406C890 /* DYWCategory.release.xcconfig */;
+			baseConfigurationReference = B4E78AE0828497F689E10C2E6CF3738F /* DYWCategory.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DYWCategory/DYWCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DYWCategory/DYWCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DYWCategory/DYWCategory.modulemap";
+				PRODUCT_MODULE_NAME = DYWCategory;
+				PRODUCT_NAME = DYWCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8736F7183B3FE12366045846DA3B479C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E56339D1D1C25AB71B9B87079DFCF58 /* DYWCategory.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -726,8 +854,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -754,20 +881,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BCE1ED8D563EB8676020CB12B3498933 /* Build configuration list for PBXNativeTarget "DYWCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5770DF88A3ADDE182AA86414F78BB8CE /* Debug */,
+				8736F7183B3FE12366045846DA3B479C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DDEB0937A92A8619B00878C989E8AADC /* Build configuration list for PBXNativeTarget "Pods-DYWCategory_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2ACF665E279D79D239067A89718B9503 /* Debug */,
 				2D4B0F69C611AC65F7F17CF553A03572 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F57EC0A86E982671C00167FE12182190 /* Build configuration list for PBXNativeTarget "DYWCategory" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0E927439119272829DC0008C53EBDC94 /* Debug */,
-				67537835E6CDCE5BF9266558C9EE0912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
